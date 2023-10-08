@@ -1,0 +1,320 @@
+@media (max-width: 1000px) {}
+@media (min-width: 250px) {}
+@media (width >= 600px) {}
+@media (width <= 400px) {}
+@media (400px <= width <= 1000px) {}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.linkies { 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 60px;
+}
+
+.linkies a {
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 200px;
+}
+
+
+.MPlogo {
+    margin-left: 30px;
+}
+
+a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#colorlink {
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+#colorlink:hover {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+hr {
+    border-color: black;
+    margin-bottom: 5px;
+}
+
+.clickbait {
+    text-align: center;
+    background-image: url(https://i.redd.it/kkx5oivt8fy71.jpg);
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.clickbait h1 {
+    color: red;
+}
+
+.clickbait p {
+    font-size: 30px;
+    color: cyan;
+}
+
+.clickbait a {
+    color: yellow;
+    font-size: 25px;
+    padding: 20px;
+    margin: 35px;
+}
+
+.clickbait a:hover {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.star {
+    color: darkgoldenrod;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin-left: 100px;
+}
+
+.contain {
+    border: solid black 5px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0 0 15px #0400fabb;
+    width: fit-content;
+    height: 890px;
+}
+
+.contain h3 {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.contain p {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.contain a {
+    margin-left: 30px;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.MKWii {
+    max-width: 100%;
+    width: 900px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.Monopoly {
+    max-width: 100%;
+    width: 1700px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.Pac-ManParty {
+    max-width: 100%;
+    width: 530px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+#form {
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.formfield {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 50px;
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px;
+
+}
+
+.formfield label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.naam {
+    display: flex;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.naam label {
+    margin-bottom: 10px;
+}
+
+.naam input {
+    width: 265px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.naam :placeholder-shown {
+    padding-left: 10px;
+}
+
+.D-mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.D-mail label {
+    margin-bottom: 10px;
+}
+
+.D-mail input {
+    position: relative;
+    width: 1500;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.woondate {
+    display: flex;
+    flex-direction: row;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.woondate input {
+    position: relative;
+    width: 270px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bericht {
+    display: flex;
+    flex-direction: column;
+}
+
+.bericht select {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.newscheck {
+    display: flex;
+    flex-direction: row;
+}
+
+.newscheck label {
+    margin: 10px;
+}
+
+.general {
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+ 
+.general label {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+#foot {
+    background-color: black;
+    padding: 90px;
+}
+
+.rights {
+    margin-top: 100px;
+}
+
+.rights a {
+    color: gray;
+}
+
+
+.voeter {
+    display: flex;
+    justify-content: space-between;
+}
+
+#foot p {
+    color: lightgray;
+}
+
+
+.copyright a {
+    color: aliceblue;
+}
+
+.Discord {
+    width: 50px;
+}
